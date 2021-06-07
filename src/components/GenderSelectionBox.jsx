@@ -4,7 +4,7 @@ import { IoMdFemale, IoMdMale } from 'react-icons/io';
 function GenderSelectionBox({ title, gender, handleGenderChange }) {
 
   return (
-    <label className="flex-1 p-4 rounded-md shadow-md bg-gray-600 relative">
+    <label className="flex-1 p-4 rounded-md shadow-md bg-gray-600 relative cursor-pointer">
       <input 
         type="radio" 
         name="gender" 
